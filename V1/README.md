@@ -25,26 +25,6 @@ demo
 |     └TestController.java  # 控制层，入口
 
 
-example
-├─demo
-|  ├─DemoApplication.java
-|  ├─service
-|  |    └TestService.java
-|  ├─pojo
-|  |  └UserPojo.java
-|  ├─exception
-|  |     ├─BaseExceptionInfo.java
-|  |     ├─BizException.java
-|  |     └GlobalExceptionHandler.java
-|  ├─enums
-|  |   └CommonEnum.java
-|  ├─entry
-|  |   ├─ResultBody.java
-|  |   └UserEntry.java
-|  ├─dao
-|  |  └UserDao.java
-|  ├─controller
-|  |     └TestController.java
 
 ```
 核心配置及mybatis文件
