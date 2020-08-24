@@ -1,0 +1,16 @@
+server:
+  port: 8900
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://123.56.181.166:3306/new_agent_erp?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: jcc
+    password: jcc
+
+
+logging:
+  config: classpath:logback.xml
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
